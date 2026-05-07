@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  padding: 40px 16px;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  color: #1a202c;
+}
+
+header button {
+  padding: 10px 20px;
+  background-color: #1a202c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+header button:hover {
+  background-color: #2d3748;
+}
+
+.sin-resultados {
+  text-align: center;
+  color: #a0aec0;
+  padding: 40px 0;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pelicula {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  padding: 16px;
+  align-items: flex-start;
+}
+
+.pelicula img {
+  width: 90px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-color: #e2e8f0;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h2 {
+  font-size: 1.05rem;
+  color: #1a202c;
+  margin-bottom: 6px;
+}
+
+.anio {
+  font-weight: 400;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.descripcion {
+  font-size: 0.88rem;
+  color: #4a5568;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.valoracion {
+  font-size: 0.88rem;
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #c6f6d5;
+  color: #276749;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+}

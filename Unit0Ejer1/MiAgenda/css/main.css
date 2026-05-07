@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  min-height: 100vh;
+}
+
+.agenda-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  width: 100%;
+  max-width: 480px;
+  height: fit-content;
+}
+
+h1 {
+  font-size: 1.6rem;
+  color: #2d3748;
+  margin-bottom: 6px;
+}
+
+.contador {
+  font-size: 0.85rem;
+  color: #718096;
+  margin-bottom: 24px;
+}
+
+.entrada {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.entrada input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.entrada input:focus {
+  border-color: #4299e1;
+}
+
+.entrada input.error {
+  border-color: #fc8181;
+}
+
+.entrada button {
+  padding: 10px 18px;
+  background-color: #4299e1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.entrada button:hover {
+  background-color: #3182ce;
+}
+
+.msg-error {
+  font-size: 0.82rem;
+  color: #e53e3e;
+  margin-top: -14px;
+  margin-bottom: 14px;
+}
+
+.lista-vacia {
+  text-align: center;
+  color: #a0aec0;
+  font-size: 0.95rem;
+  padding: 24px 0;
+}
+
+ul.contactos {
+  list-style: none;
+}
+
+ul.contactos li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  background-color: #ebf8ff;
+  color: #2b6cb0;
+  font-size: 0.95rem;
+  animation: aparecer 0.2s ease;
+}
+
+ul.contactos li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #a0aec0;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0 4px;
+  transition: color 0.15s;
+}
+
+ul.contactos li button:hover {
+  color: #e53e3e;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

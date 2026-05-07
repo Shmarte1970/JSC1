@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Agenda</title>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <div id="app" class="agenda-card">
+
+    <h1>📒 Mi Agenda</h1>
+
+    <p class="contador">
+      <span v-if="contactos.length === 0">Sin contactos todavía</span>
+      <span v-else>{{ contactos.length }} contacto{{ contactos.length > 1 ? 's' : '' }} en la agenda</span>
+    </p>
+
+    <div class="entrada">
+      <input
+        type="text"
+        v-model="nuevoContacto"
+        :class="{ error: mostrarError }"
+        placeholder="Nombre del contacto..."
+        @keyup.enter="añadirContacto"
+        @input="mostrarError = false"
+      />
+      <button @click="añadirContacto">Añadir</button>
+    </div>
+
+    <p v-if="mostrarError" class="msg-error">
+      Escribe un nombre antes de añadir.
+    </p>
+
+    <p v-if="contactos.length === 0" class="lista-vacia">
+      No hay contactos en la lista.
+    </p>
+
+    <ul v-else class="contactos">
+      <li v-for="(contacto, index) in contactos" :key="index">
+        {{ contacto }}
+        <button @click="eliminarContacto(index)" title="Eliminar contacto">✕</button>
+      </li>
+    </ul>
+
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

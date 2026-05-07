@@ -1,0 +1,82 @@
+[
+  {
+    "titulo": "Laura",
+    "anio": 1944,
+    "imagen": "https://pics.filmaffinity.com/laura-654380969-large.jpg",
+    "descripcion": "El detective Mark McPherson (Dana Andrews) investiga el asesinato de Laura Hunt (Gene Tierney), una bella y seductora mujer que ha aparecido asesinada en su apartamento. McPherson elabora un retrato mental de ella a partir de las declaraciones de sus allegados, algunos sospechosos como el cínico cronista Waldo Lydecker (Clifton Webb) o Shelby Carpenter (Vincent Price), prometido de la joven. Además el diario y la correspondencia de la fallecida, y sobre todo el sugestivo retrato de Laura, que cuelga de la pared de su apartamento, ayudan a McPherson a crear un perfil de una mujer por la que poco a poco cae hechizado. ",
+    "valoracion": 7.9,
+    "enCines": false
+  },
+  {
+    "titulo": "Superman",
+    "anio": 1978,
+    "imagen": "https://pics.filmaffinity.com/superman_the_movie-219321225-large.jpg",
+    "descripcion": "Desde una galaxia remota, un recién nacido es enviado por sus padres al espacio debido a la inminente destrucción del planeta donde viven. La nave aterriza en la Tierra, y el niño es adoptado por unos granjeros que le inculcan los mejores valores humanos. Con los años, el joven se irá a Metrópolis y allí usará sus poderes sobrenaturales para luchar contra el mal",
+    "valoracion": 7.4,
+    "enCines": false
+  },
+  {
+    "titulo": "Pulp Fiction",
+    "anio": 1994,
+    "imagen": "https://pics.filmaffinity.com/pulp_fiction-210382116-large.jpg",
+    "descripcion": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse 'manos a la obra'. Su misión: recuperar un misterioso maletín",
+    "valoracion": 8.9,
+    "enCines": false
+  },
+  {
+    "titulo": "La noche más oscura",
+    "anio": 2012,
+    "imagen": "https://pics.filmaffinity.com/zero_dark_thirty-566142690-large.jpg",
+    "descripcion": "Tras varios años de investigación de la CIA, que incluyó torturas a prisioneros en Afganistán, y gracias sobre todo a la perserverancia y decisión de la agente especial Maya (Jessica Chastain), por fin el presidente Obama dio el visto bueno a la operación militar que acabó con la vida de Osama Bin Laden, líder de Al-Qaeda. El título, 'Zero Dark Thirty', se refiere a la hora: las 00:30 de la madrugada del 2 de mayo de 2011, momento en que el comando SEAL de los marines penetró en la residencia de Bin Laden en Abbottabad, en Pakistán, para dar caza al hombre más buscado de la historia",
+    "valoracion": 7.4,
+    "enCines": false
+  },
+  {
+    "titulo": "La Guerra de las Galaxias",
+    "anio": 1977,
+    "imagen": "https://pics.filmaffinity.com/star_wars-166209019-large.jpg",
+    "descripcion": "La princesa Leia, líder del movimiento rebelde que desea reinstaurar la República en la galaxia en los tiempos ominosos del Imperio, es capturada por las Fuerzas Imperiales, capitaneadas por el implacable Darth Vader, el sirviente más fiel del Emperador. El intrépido y joven Luke Skywalker, ayudado por Han Solo, capitán de la nave espacial 'El Halcón Milenario', y los androides, R2D2 y C3PO, serán los encargados de luchar contra el enemigo e intentar rescatar a la princesa para volver a instaurar la justicia en el seno de la galaxia",
+    "valoracion": 8.6,
+    "enCines": false
+  },
+  {
+    "titulo": "Django desencadenado",
+    "anio": 2012,
+    "imagen": "https://pics.filmaffinity.com/django_unchained-956246347-large.jpg",
+    "descripcion": "En Texas, dos años antes de estallar la Guerra Civil Americana, King Schultz (Christoph Waltz), un cazarrecompensas alemán que sigue la pista a unos asesinos para cobrar por sus cabezas, le promete al esclavo negro Django (Jamie Foxx) dejarlo en libertad si le ayuda a atraparlos. Él acepta, pues luego quiere ir a buscar a su esposa Broomhilda (Kerry Washington), esclava en una plantación del terrateniente Calvin Candie (Leonardo DiCaprio)",
+    "valoracion": 8.4,
+    "enCines": false
+  },
+  {
+    "titulo": "Proyecto Brainstorm",
+    "anio": 1983,
+    "imagen": "https://pics.filmaffinity.com/brainstorm-397847766-large.jpg",
+    "descripcion": "El doctor Brace y la doctora Reynolds están a punto de culminar un proyecto: una máquina grabadora que, unida a unos sofisticados sensores de ondas cerebrales, puede leer y grabar todas las sensaciones físicas y emocionales del individuo. Y como colofón, quieren conseguir que esa suma de sensaciones, grabadas en una cinta de diez centímetros, pueda ser reexperimentada por otra persona diferente. ",
+    "valoracion": 6.6,
+    "enCines": false
+  },
+  {
+    "titulo": "Rocky",
+    "anio": 1976,
+    "imagen": "https://pics.filmaffinity.com/rocky-253483905-large.jpg",
+    "descripcion": "Rocky Balboa es un desconocido boxeador a quien se le ofrece la posibilidad de pelear por el título mundial de los pesos pesados. Con una gran fuerza de voluntad, Rocky se prepara concienzudamente para el combate y también para los cambios que acabarán produciéndose en su vida.",
+    "valoracion": 8.1,
+    "enCines": false
+  },
+  {
+    "titulo": "La Odisea",
+    "anio": 2026,
+    "imagen": "https://pics.filmaffinity.com/the_odyssey-225588139-large.jpg",
+    "descripcion": "",
+    "valoracion": 0,
+    "enCines": true
+  },
+  {
+    "titulo": "Michael",
+    "anio": 2026,
+    "imagen": "https://pics.filmaffinity.com/michael-664506782-large.jpg",
+    "descripcion": "El viaje de Michael Jackson más allá de la música, desde el descubrimiento de su extraordinario talento como líder de los Jackson Five hasta convertirse en una visionaria estrella cuya ambición creativa despertó un incansable afán por consagrarse como el mayor icono de la industria del entretenimiento. ",
+    "valoracion": 0,
+    "enCines": true
+  }
+]
