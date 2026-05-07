@@ -1,0 +1,22 @@
+[
+  { "id": 1,  "title": "Bohemian Rhapsody",       "artist": "Queen",                    "duration": "6:00", "isTopHit": true  },
+  { "id": 2,  "title": "The Number of the Beast",  "artist": "Iron Maiden",              "duration": "4:59", "isTopHit": true  },
+  { "id": 3,  "title": "Thunderstruck",             "artist": "AC/DC",                    "duration": "4:53", "isTopHit": true  },
+  { "id": 4,  "title": "Cigarettes & Alcohol",      "artist": "Oasis",                    "duration": "4:48", "isTopHit": true  },
+  { "id": 5,  "title": "Enter the Sandman",         "artist": "Metallica",                "duration": "5:31", "isTopHit": true  },
+  { "id": 6,  "title": "Sweet Child O' Mine",       "artist": "Guns N' Roses",            "duration": "5:03", "isTopHit": true  },
+  { "id": 7,  "title": "Baby I Don't Care",         "artist": "Transvision Vamp",         "duration": "3:58", "isTopHit": false },
+  { "id": 8,  "title": "Don't Bring Me Down",       "artist": "ELO",                      "duration": "6:14", "isTopHit": false },
+  { "id": 9,  "title": "Sowing the Seeds of Love",  "artist": "Tears for Fears",          "duration": "5:32", "isTopHit": false },
+  { "id": 10, "title": "Du Hast",                   "artist": "Rammstein",                "duration": "4:33", "isTopHit": true  },
+  { "id": 11, "title": "Tick Tick Boom",             "artist": "The Hives",                "duration": "2:53", "isTopHit": false },
+  { "id": 12, "title": "When I Grow Up",             "artist": "Garbage",                  "duration": "3:26", "isTopHit": false },
+  { "id": 13, "title": "Zombie",                     "artist": "The Cranberries",           "duration": "8:08", "isTopHit": true  },
+  { "id": 14, "title": "Kashmir",                    "artist": "Led Zeppelin",             "duration": "9:07", "isTopHit": true  },
+  { "id": 15, "title": "About a Girl",               "artist": "Nirvana",                  "duration": "3:05", "isTopHit": false },
+  { "id": 16, "title": "Be With You",                "artist": "The Bangles",              "duration": "3:08", "isTopHit": true  },
+  { "id": 17, "title": "Relax",                      "artist": "Frankie Goes to Hollywood","duration": "4:09", "isTopHit": true  },
+  { "id": 18, "title": "Rebel Rebel",                "artist": "David Bowie",              "duration": "7:32", "isTopHit": true  },
+  { "id": 19, "title": "Rag Doll",                   "artist": "Aerosmith",                "duration": "4:52", "isTopHit": false },
+  { "id": 20, "title": "Babes in Toyland",           "artist": "Sweet 69",                 "duration": "3:32", "isTopHit": false }
+]
