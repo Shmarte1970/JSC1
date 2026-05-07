@@ -1,9 +1,3 @@
-# PDFs del directorio raíz
-/*.pdf
-
-# Configuración local de Claude
-.claude/
-
 # Logs
 logs
 *.log

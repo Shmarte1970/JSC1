@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Dune: Parte Dos",
+    "genre": "Ciencia ficción",
+    "year": 2024,
+    "rating": 8.5,
+    "inTheaters": true
+  },
+  {
+    "id": 2,
+    "title": "Oppenheimer",
+    "genre": "Drama histórico",
+    "year": 2023,
+    "rating": 8.9,
+    "inTheaters": false
+  },
+  {
+    "id": 3,
+    "title": "Kung Fu Panda 4",
+    "genre": "Animación",
+    "year": 2024,
+    "rating": 7.1,
+    "inTheaters": true
+  },
+  {
+    "id": 4,
+    "title": "Poor Things",
+    "genre": "Drama",
+    "year": 2023,
+    "rating": 8.0,
+    "inTheaters": false
+  },
+  {
+    "id": 5,
+    "title": "Godzilla x Kong",
+    "genre": "Acción",
+    "year": 2024,
+    "rating": 6.5,
+    "inTheaters": true
+  },
+  {
+    "id": 6,
+    "title": "La zona de interés",
+    "genre": "Drama",
+    "year": 2023,
+    "rating": 7.9,
+    "inTheaters": false
+  },
+  {
+    "id": 7,
+    "title": "Civil War",
+    "genre": "Acción",
+    "year": 2024,
+    "rating": 7.3,
+    "inTheaters": true
+  },
+  {
+    "id": 8,
+    "title": "Saltburn",
+    "genre": "Thriller",
+    "year": 2023,
+    "rating": 7.4,
+    "inTheaters": false
+  }
+]
