@@ -1,0 +1,253 @@
+/* ===== RESET & BASE ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #0d0d0d;
+  color: #e8d5a3;
+  min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(135deg, #1a0a00, #3b1f00);
+  border-bottom: 3px solid #c9a84c;
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #c9a84c;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #e8d5a3;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+}
+
+nav a:hover {
+  border-color: #c9a84c;
+  color: #c9a84c;
+}
+
+nav a.active {
+  background-color: #c9a84c;
+  color: #1a0a00;
+  font-weight: bold;
+  border-color: #c9a84c;
+}
+
+/* ===== MAIN ===== */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #c9a84c;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px rgba(201, 168, 76, 0.4);
+}
+
+/* ===== LOADING / ERROR ===== */
+.loading {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #a89060;
+  padding: 3rem;
+}
+
+.loading.error {
+  color: #e05c5c;
+}
+
+/* ===== BOOKS GRID ===== */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.book-card {
+  background: #1a1108;
+  border: 1px solid #3d2e10;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(201, 168, 76, 0.2);
+}
+
+.book-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-bottom: 2px solid #3d2e10;
+}
+
+.book-info {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex: 1;
+}
+
+.book-number {
+  font-size: 0.8rem;
+  color: #c9a84c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.book-info h3 {
+  font-size: 1.1rem;
+  color: #f0e0b0;
+  line-height: 1.3;
+}
+
+.book-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #a89060;
+}
+
+.book-description {
+  font-size: 0.88rem;
+  color: #b0a070;
+  line-height: 1.6;
+  margin-top: 0.4rem;
+}
+
+/* ===== CHARACTERS GRID ===== */
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.character-card {
+  background: #1a1108;
+  border: 1px solid #3d2e10;
+  border-top: 4px solid #c9a84c;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(201, 168, 76, 0.2);
+}
+
+.character-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: top;
+  border-bottom: 1px solid #3d2e10;
+}
+
+.character-info {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.character-info h3 {
+  font-size: 1.1rem;
+  color: #f0e0b0;
+}
+
+.nickname {
+  font-style: italic;
+  color: #a89060;
+  font-size: 0.9rem;
+}
+
+.character-info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+  margin-top: 0.4rem;
+}
+
+.character-info li {
+  color: #c0aa80;
+}
+
+.character-info li strong {
+  color: #e8d5a3;
+}
+
+.house-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-left: 0.3rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .header-inner {
+    flex-direction: column;
+    height: auto;
+    padding: 0.8rem 0;
+    gap: 0.6rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .books-grid,
+  .characters-grid {
+    grid-template-columns: 1fr;
+  }
+}

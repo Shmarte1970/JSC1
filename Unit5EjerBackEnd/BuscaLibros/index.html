@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Busca Libros</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="logo">&#128214; Busca Libros</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <form id="search-form">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Busca por título o autor..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+
+    <section id="results-section" class="results-section hidden">
+      <p id="results-count" class="results-count"></p>
+      <div id="results-container" class="results-grid"></div>
+    </section>
+
+    <div id="loading" class="loading hidden">Buscando libros...</div>
+    <div id="error-msg" class="error-msg hidden"></div>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
