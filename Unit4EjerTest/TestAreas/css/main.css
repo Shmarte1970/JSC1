@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 460px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #1a202c;
+  color: #fff;
+  padding: 24px 28px;
+}
+
+.card-header h1 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+}
+
+.card-header p {
+  font-size: 0.85rem;
+  color: #a0aec0;
+}
+
+.card-body {
+  padding: 28px;
+}
+
+.seccion-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #718096;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.figura-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.figura-grid button {
+  padding: 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  color: #4a5568;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.figura-grid button:hover {
+  border-color: #4299e1;
+  color: #4299e1;
+}
+
+.figura-grid button.activo {
+  background-color: #1a202c;
+  border-color: #1a202c;
+  color: #fff;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.campo label {
+  display: block;
+  font-size: 0.85rem;
+  color: #718096;
+  margin-bottom: 6px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #2d3748;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.campo input:focus {
+  border-color: #4299e1;
+}
+
+.resultado {
+  background-color: #f7fafc;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+}
+
+.formula {
+  font-size: 0.9rem;
+  color: #718096;
+  margin-bottom: 12px;
+}
+
+.area-valor {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1a202c;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.unidades {
+  font-size: 0.85rem;
+  color: #a0aec0;
+}

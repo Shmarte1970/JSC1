@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Áreas</title>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <div id="app">
+    <div class="card">
+
+      <div class="card-header">
+        <h1>Calculadora de Áreas</h1>
+        <p>Calcula áreas de figuras geométricas</p>
+      </div>
+
+      <div class="card-body">
+
+        <p class="seccion-label">Selecciona una figura:</p>
+
+        <div class="figura-grid">
+          <button
+            v-for="f in figuras"
+            :key="f.id"
+            :class="{ activo: figura === f.id }"
+            @click="figura = f.id"
+          >
+            {{ f.label }}
+          </button>
+        </div>
+
+        <div class="inputs">
+          <div v-if="figura === 'cuadrado'" class="campo">
+            <label>Lado (l)</label>
+            <input type="number" v-model.number="lado" min="0" placeholder="0" />
+          </div>
+
+          <template v-if="figura === 'rectangulo' || figura === 'triangulo'">
+            <div class="campo">
+              <label>Base (b)</label>
+              <input type="number" v-model.number="base" min="0" placeholder="0" />
+            </div>
+            <div class="campo">
+              <label>Altura (h)</label>
+              <input type="number" v-model.number="altura" min="0" placeholder="0" />
+            </div>
+          </template>
+
+          <div v-if="figura === 'circulo'" class="campo">
+            <label>Radio (r)</label>
+            <input type="number" v-model.number="radio" min="0" placeholder="0" />
+          </div>
+        </div>
+
+        <div class="resultado">
+          <p class="formula">{{ formulaDetalle }}</p>
+          <p class="area-valor">{{ area.toFixed(2) }}</p>
+          <p class="unidades">unidades cuadradas</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
