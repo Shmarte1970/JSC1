@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Diseñar la interfaz de usuario",
+    "description": "Crear mockups y wireframes para las pantallas principales de la aplicación.",
+    "dueDate": "2025-06-15",
+    "priority": "high"
+  },
+  {
+    "id": 2,
+    "name": "Configurar la base de datos",
+    "description": "Instalar y configurar el servidor de base de datos con las tablas necesarias.",
+    "dueDate": "2025-05-20",
+    "priority": "medium"
+  },
+  {
+    "id": 3,
+    "name": "Implementar autenticación",
+    "description": "Desarrollar el sistema de login y registro de usuarios con JWT.",
+    "dueDate": "2025-05-28",
+    "priority": "high"
+  },
+  {
+    "id": 4,
+    "name": "Crear la API REST",
+    "description": "Desarrollar los endpoints necesarios para el CRUD de tareas del proyecto.",
+    "dueDate": "2025-06-05",
+    "priority": "high"
+  },
+  {
+    "id": 5,
+    "name": "Escribir tests unitarios",
+    "description": "Cubrir las funciones principales con pruebas automatizadas usando Vitest.",
+    "dueDate": "2025-06-20",
+    "priority": "low"
+  },
+  {
+    "id": 6,
+    "name": "Optimizar consultas SQL",
+    "description": "Revisar y mejorar el rendimiento de las consultas a la base de datos.",
+    "dueDate": "2025-07-01",
+    "priority": "medium"
+  },
+  {
+    "id": 7,
+    "name": "Documentar el código fuente",
+    "description": "Añadir comentarios y documentación JSDoc a todas las funciones públicas.",
+    "dueDate": "2025-07-10",
+    "priority": "low"
+  },
+  {
+    "id": 8,
+    "name": "Configurar pipeline CI/CD",
+    "description": "Configurar el flujo de integración continua en GitHub Actions para el proyecto.",
+    "dueDate": "2025-06-30",
+    "priority": "medium"
+  },
+  {
+    "id": 9,
+    "name": "Revisar seguridad de la aplicación",
+    "description": "Auditar el código en busca de vulnerabilidades y aplicar las correcciones oportunas.",
+    "dueDate": "2025-05-25",
+    "priority": "high"
+  },
+  {
+    "id": 10,
+    "name": "Preparar entorno de producción",
+    "description": "Configurar el servidor de producción y desplegar la primera versión estable.",
+    "dueDate": "2025-07-15",
+    "priority": "medium"
+  },
+  {
+    "id": 11,
+    "name": "Reunión de seguimiento con el cliente",
+    "description": "Presentar los avances del sprint y recoger el feedback del cliente sobre las funcionalidades.",
+    "dueDate": "2025-05-15",
+    "priority": "high"
+  },
+  {
+    "id": 12,
+    "name": "Actualizar dependencias del proyecto",
+    "description": "Revisar y actualizar las librerías a sus últimas versiones estables sin romper compatibilidad.",
+    "dueDate": "2025-07-20",
+    "priority": "low"
+  }
+]
