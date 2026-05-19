@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  html {
+    @apply font-sans text-gray-700 bg-gray-50;
+  }
+
+  * {
+    @apply box-border;
+  }
+
+  h1 { @apply text-3xl font-semibold text-gray-800; }
+  h2 { @apply text-2xl font-semibold text-gray-800; }
+  h3 { @apply text-xl font-medium text-gray-700; }
+}
+
+@layer components {
+  /* Botones */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl font-medium text-sm transition-all duration-150 cursor-pointer border-0;
+  }
+  .btn-primary {
+    @apply btn bg-sage-300 text-white hover:bg-sage-400 shadow-soft;
+  }
+  .btn-secondary {
+    @apply btn bg-gray-100 text-gray-600 hover:bg-gray-200;
+  }
+  .btn-danger {
+    @apply btn bg-red-100 text-red-600 hover:bg-red-200;
+  }
+  .btn-outline {
+    @apply btn bg-transparent border border-sage-300 text-sage-500 hover:bg-sage-50;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+  .btn-lg {
+    @apply px-6 py-3 text-base;
+  }
+
+  /* Inputs */
+  .input {
+    @apply w-full px-3 py-2 rounded-xl border border-gray-200 bg-white text-gray-700 text-sm
+           placeholder-gray-300 transition-all duration-150
+           focus:outline-none focus:ring-2 focus:ring-sage-200 focus:border-sage-300;
+  }
+  .input-error {
+    @apply border-red-300 focus:ring-red-100 focus:border-red-400;
+  }
+  .label {
+    @apply block text-sm font-medium text-gray-600 mb-1;
+  }
+  .error-msg {
+    @apply text-xs text-red-500 mt-1;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-2xl shadow-soft p-5 border border-gray-100;
+  }
+  .card-hover {
+    @apply card hover:shadow-medium transition-shadow duration-200 cursor-pointer;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .badge-sage {
+    @apply badge bg-sage-100 text-sage-700;
+  }
+  .badge-lavender {
+    @apply badge bg-lavender-100 text-lavender-700;
+  }
+  .badge-gray {
+    @apply badge bg-gray-100 text-gray-600;
+  }
+}

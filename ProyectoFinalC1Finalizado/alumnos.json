@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "nombre": "Armando Bronca Segura",
+    "email": "armando.bronca@uoc.edu",
+    "curso": "Ingeniería Informática",
+    "año": 2022,
+    "nia": "NIA-100001"
+  },
+  {
+    "id": 2,
+    "nombre": "Dolores Fuertes de Barriga",
+    "email": "dolores.fuertes@uoc.edu",
+    "curso": "Medicina",
+    "año": 2021,
+    "nia": "NIA-100002"
+  },
+  {
+    "id": 3,
+    "nombre": "Margarita Flores del Campo",
+    "email": "margarita.flores@uoc.edu",
+    "curso": "Biología",
+    "año": 2023,
+    "nia": "NIA-100003"
+  },
+  {
+    "id": 4,
+    "nombre": "Elba Lazo",
+    "email": "elba.lazo@uoc.edu",
+    "curso": "Diseño Gráfico",
+    "año": 2020,
+    "nia": "NIA-100004"
+  },
+  {
+    "id": 5,
+    "nombre": "Elsa Capuntas",
+    "email": "elsa.capuntas@uoc.edu",
+    "curso": "Psicología",
+    "año": 2024,
+    "nia": "NIA-100005"
+  },
+  {
+    "id": 6,
+    "nombre": "Luz Cuesta Mogollón",
+    "email": "luz.cuesta@uoc.edu",
+    "curso": "Derecho",
+    "año": 2022,
+    "nia": "NIA-100006"
+  },
+  {
+    "id": 7,
+    "nombre": "Alma Rota",
+    "email": "alma.rota@uoc.edu",
+    "curso": "Psicología",
+    "año": 2021,
+    "nia": "NIA-100007"
+  },
+  {
+    "id": 8,
+    "nombre": "Consuelo Terán",
+    "email": "consuelo.teran@uoc.edu",
+    "curso": "Trabajo Social",
+    "año": 2023,
+    "nia": "NIA-100008"
+  },
+  {
+    "id": 9,
+    "nombre": "Rosa Melano",
+    "email": "rosa.melano@uoc.edu",
+    "curso": "Medicina",
+    "año": 2020,
+    "nia": "NIA-100009"
+  },
+  {
+    "id": 10,
+    "nombre": "Ana Busado",
+    "email": "ana.busado@uoc.edu",
+    "curso": "Administración de Empresas",
+    "año": 2024,
+    "nia": "NIA-100010"
+  },
+  {
+    "id": 11,
+    "nombre": "Aitor Tilla",
+    "email": "aitor.tilla@uoc.edu",
+    "curso": "Ingeniería Informática",
+    "año": 2022,
+    "nia": "NIA-100011"
+  },
+  {
+    "id": 12,
+    "nombre": "Ester Colero",
+    "email": "ester.colero@uoc.edu",
+    "curso": "Química",
+    "año": 2021,
+    "nia": "NIA-100012"
+  },
+  {
+    "id": 13,
+    "nombre": "Susana Oria",
+    "email": "susana.oria@uoc.edu",
+    "curso": "Historia",
+    "año": 2023,
+    "nia": "NIA-100013"
+  },
+  {
+    "id": 14,
+    "nombre": "Sara Mago",
+    "email": "sara.mago@uoc.edu",
+    "curso": "Bellas Artes",
+    "año": 2020,
+    "nia": "NIA-100014"
+  },
+  {
+    "id": 15,
+    "nombre": "Amparo Latas",
+    "email": "amparo.latas@uoc.edu",
+    "curso": "Turismo",
+    "año": 2024,
+    "nia": "NIA-100015"
+  },
+  {
+    "id": 16,
+    "nombre": "Blanca Nieves del Moral",
+    "email": "blanca.nieves@uoc.edu",
+    "curso": "Literatura Española",
+    "año": 2022,
+    "nia": "NIA-100016"
+  },
+  {
+    "id": 17,
+    "nombre": "Berta Dero",
+    "email": "berta.dero@uoc.edu",
+    "curso": "Matemáticas",
+    "año": 2021,
+    "nia": "NIA-100017"
+  },
+  {
+    "id": 18,
+    "nombre": "Hugo Lentini",
+    "email": "hugo.lentini@uoc.edu",
+    "curso": "Física",
+    "año": 2023,
+    "nia": "NIA-100018"
+  },
+  {
+    "id": 19,
+    "nombre": "Pilar Mica",
+    "email": "pilar.mica@uoc.edu",
+    "curso": "Geología",
+    "año": 2020,
+    "nia": "NIA-100019"
+  },
+  {
+    "id": 20,
+    "nombre": "Lola Mento",
+    "email": "lola.mento@uoc.edu",
+    "curso": "Farmacia",
+    "año": 2024,
+    "nia": "NIA-100020"
+  },
+  {
+    "id": 21,
+    "nombre": "Andrés Trozado",
+    "email": "andres.trozado@uoc.edu",
+    "curso": "Ingeniería Civil",
+    "año": 2022,
+    "nia": "NIA-100021"
+  },
+  {
+    "id": 22,
+    "nombre": "Mercedes Nario",
+    "email": "mercedes.nario@uoc.edu",
+    "curso": "Administración de Empresas",
+    "año": 2021,
+    "nia": "NIA-100022"
+  },
+  {
+    "id": 23,
+    "nombre": "Alba Surdo",
+    "email": "alba.surdo@uoc.edu",
+    "curso": "Logopedia",
+    "año": 2023,
+    "nia": "NIA-100023"
+  },
+  {
+    "id": 24,
+    "nombre": "Jimena Tira",
+    "email": "jimena.tira@uoc.edu",
+    "curso": "Educación Primaria",
+    "año": 2020,
+    "nia": "NIA-100024"
+  },
+  {
+    "id": 25,
+    "nombre": "Armando Paredes",
+    "email": "armando.paredes@uoc.edu",
+    "curso": "Arquitectura",
+    "año": 2024,
+    "nia": "NIA-100025"
+  },
+  {
+    "id": 26,
+    "nombre": "Teodoro Siento",
+    "email": "teodoro.siento@uoc.edu",
+    "curso": "Psicología",
+    "año": 2022,
+    "nia": "NIA-100026"
+  },
+  {
+    "id": 27,
+    "nombre": "Cándida Tura",
+    "email": "candida.tura@uoc.edu",
+    "curso": "Enfermería",
+    "año": 2021,
+    "nia": "NIA-100027"
+  },
+  {
+    "id": 28,
+    "nombre": "Olga Tan",
+    "email": "olga.tan@uoc.edu",
+    "curso": "Marketing Digital",
+    "año": 2023,
+    "nia": "NIA-100028"
+  },
+  {
+    "id": 29,
+    "nombre": "Tomás Turbado",
+    "email": "tomas.turbado@uoc.edu",
+    "curso": "Filosofía",
+    "año": 2020,
+    "nia": "NIA-100029"
+  },
+  {
+    "id": 30,
+    "nombre": "Inés Perada",
+    "email": "ines.perada@uoc.edu",
+    "curso": "Veterinaria",
+    "año": 2024,
+    "nia": "NIA-100030"
+  },
+  {
+    "id": 31,
+    "nombre": "Elsa Pato",
+    "email": "elsa.pato@uoc.edu",
+    "curso": "Biología Marina",
+    "año": 2022,
+    "nia": "NIA-100031"
+  },
+  {
+    "id": 32,
+    "nombre": "Elmer Curio",
+    "email": "elmer.curio@uoc.edu",
+    "curso": "Física",
+    "año": 2021,
+    "nia": "NIA-100032"
+  },
+  {
+    "id": 33,
+    "nombre": "Benito Camelo",
+    "email": "benito.camelo@uoc.edu",
+    "curso": "Veterinaria",
+    "año": 2023,
+    "nia": "NIA-100033"
+  },
+  {
+    "id": 34,
+    "nombre": "Alba Ñil",
+    "email": "alba.nil@uoc.edu",
+    "curso": "Arquitectura",
+    "año": 2020,
+    "nia": "NIA-100034"
+  },
+  {
+    "id": 35,
+    "nombre": "Lola Mazo",
+    "email": "lola.mazo@uoc.edu",
+    "curso": "Derecho",
+    "año": 2024,
+    "nia": "NIA-100035"
+  },
+  {
+    "id": 36,
+    "nombre": "Pilar Risa Floja",
+    "email": "pilar.risa@uoc.edu",
+    "curso": "Comunicación Audiovisual",
+    "año": 2022,
+    "nia": "NIA-100036"
+  },
+  {
+    "id": 37,
+    "nombre": "Venus Entra Sola",
+    "email": "venus.entra@uoc.edu",
+    "curso": "Astronomía",
+    "año": 2021,
+    "nia": "NIA-100037"
+  },
+  {
+    "id": 38,
+    "nombre": "Tomás Tocado",
+    "email": "tomas.tocado@uoc.edu",
+    "curso": "Musicología",
+    "año": 2023,
+    "nia": "NIA-100038"
+  },
+  {
+    "id": 39,
+    "nombre": "Cuca Racha",
+    "email": "cuca.racha@uoc.edu",
+    "curso": "Entomología",
+    "año": 2020,
+    "nia": "NIA-100039"
+  },
+  {
+    "id": 40,
+    "nombre": "Berta Paja",
+    "email": "berta.paja@uoc.edu",
+    "curso": "Agronomía",
+    "año": 2024,
+    "nia": "NIA-100040"
+  },
+  {
+    "id": 41,
+    "nombre": "Jonathan Empotrao",
+    "email": "jonathan.empotrao@uoc.edu",
+    "curso": "Ingeniería Informática",
+    "año": 2022,
+    "nia": "NIA-100041"
+  },
+  {
+    "id": 42,
+    "nombre": "Jaime Duro",
+    "email": "jaime.duro@uoc.edu",
+    "curso": "Educación Física",
+    "año": 2021,
+    "nia": "NIA-100042"
+  },
+  {
+    "id": 43,
+    "nombre": "Mónica Galindo",
+    "email": "monica.galindo@uoc.edu",
+    "curso": "Criminología",
+    "año": 2023,
+    "nia": "NIA-100043"
+  },
+  {
+    "id": 44,
+    "nombre": "Aitor Menta",
+    "email": "aitor.menta@uoc.edu",
+    "curso": "Farmacia",
+    "año": 2020,
+    "nia": "NIA-100044"
+  },
+  {
+    "id": 45,
+    "nombre": "Ángela Sepuede",
+    "email": "angela.sepuede@uoc.edu",
+    "curso": "Trabajo Social",
+    "año": 2024,
+    "nia": "NIA-100045"
+  },
+  {
+    "id": 46,
+    "nombre": "Rosa Melano Profundo",
+    "email": "rosa.melano.profundo@uoc.edu",
+    "curso": "Medicina",
+    "año": 2022,
+    "nia": "NIA-100046"
+  },
+  {
+    "id": 47,
+    "nombre": "Tania Cerda",
+    "email": "tania.cerda@uoc.edu",
+    "curso": "Ciencias Ambientales",
+    "año": 2021,
+    "nia": "NIA-100047"
+  },
+  {
+    "id": 48,
+    "nombre": "Kevin Costra",
+    "email": "kevin.costra@uoc.edu",
+    "curso": "Gastronomía",
+    "año": 2023,
+    "nia": "NIA-100048"
+  },
+  {
+    "id": 49,
+    "nombre": "Vanesa Explosiva",
+    "email": "vanesa.explosiva@uoc.edu",
+    "curso": "Ingeniería Química",
+    "año": 2020,
+    "nia": "NIA-100049"
+  },
+  {
+    "id": 50,
+    "nombre": "Dolores Cabeza",
+    "email": "dolores.cabeza@uoc.edu",
+    "curso": "Neurología",
+    "año": 2024,
+    "nia": "NIA-100050"
+  }
+]

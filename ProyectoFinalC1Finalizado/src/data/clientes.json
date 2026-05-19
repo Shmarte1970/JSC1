@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nombre": "Armando",
+    "apellidos": "Bronca Segura",
+    "email": "armando.bronca@uoc.edu",
+    "password": "Arm@nd01234",
+    "telefono": "611000001",
+    "direccion": "Calle Mayor, 1",
+    "ciudad": "Madrid",
+    "codigoPostal": "28001"
+  },
+  {
+    "id": 2,
+    "nombre": "Dolores",
+    "apellidos": "Fuertes de Barriga",
+    "email": "dolores.fuertes@uoc.edu",
+    "password": "D0l0r@s1234",
+    "telefono": "622000002",
+    "direccion": "Avenida del Paralelo, 45",
+    "ciudad": "Barcelona",
+    "codigoPostal": "08001"
+  },
+  {
+    "id": 3,
+    "nombre": "Margarita",
+    "apellidos": "Flores del Campo",
+    "email": "margarita.flores@uoc.edu",
+    "password": "M@rgar1t4",
+    "telefono": "633000003",
+    "direccion": "Calle Sierpes, 12",
+    "ciudad": "Sevilla",
+    "codigoPostal": "41001"
+  },
+  {
+    "id": 4,
+    "nombre": "Elba",
+    "apellidos": "Lazo",
+    "email": "elba.lazo@uoc.edu",
+    "password": "Elb@L@z01234",
+    "telefono": "644000004",
+    "direccion": "Gran Vía, 88",
+    "ciudad": "Bilbao",
+    "codigoPostal": "48001"
+  },
+  {
+    "id": 5,
+    "nombre": "Elsa",
+    "apellidos": "Capuntas",
+    "email": "elsa.capuntas@uoc.edu",
+    "password": "Els@C@p1234",
+    "telefono": "655000005",
+    "direccion": "Calle Larios, 7",
+    "ciudad": "Málaga",
+    "codigoPostal": "29001"
+  },
+  {
+    "id": 6,
+    "nombre": "Luz",
+    "apellidos": "Cuesta Mogollón",
+    "email": "luz.cuesta@uoc.edu",
+    "password": "LuzCu@st@1234",
+    "telefono": "666000006",
+    "direccion": "Paseo de la Castellana, 200",
+    "ciudad": "Madrid",
+    "codigoPostal": "28046"
+  },
+  {
+    "id": 7,
+    "nombre": "Alma",
+    "apellidos": "Rota",
+    "email": "alma.rota@uoc.edu",
+    "password": "Alm@R0t@1234",
+    "telefono": "677000007",
+    "direccion": "Rambla de Catalunya, 33",
+    "ciudad": "Barcelona",
+    "codigoPostal": "08007"
+  },
+  {
+    "id": 8,
+    "nombre": "Consuelo",
+    "apellidos": "Terán",
+    "email": "consuelo.teran@uoc.edu",
+    "password": "C0nsu@l01234",
+    "telefono": "688000008",
+    "direccion": "Calle San Fernando, 5",
+    "ciudad": "Valencia",
+    "codigoPostal": "46001"
+  },
+  {
+    "id": 9,
+    "nombre": "Rosa",
+    "apellidos": "Melano",
+    "email": "rosa.melano@uoc.edu",
+    "password": "R0s@M3l1234",
+    "telefono": "699000009",
+    "direccion": "Avenida de la Constitución, 14",
+    "ciudad": "Zaragoza",
+    "codigoPostal": "50001"
+  },
+  {
+    "id": 10,
+    "nombre": "Ana",
+    "apellidos": "Busado",
+    "email": "ana.busado@uoc.edu",
+    "password": "An@Bus@d01234",
+    "telefono": "610000010",
+    "direccion": "Calle Colón, 22",
+    "ciudad": "Alicante",
+    "codigoPostal": "03001"
+  }
+]
